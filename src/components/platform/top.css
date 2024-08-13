@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.top{
+    height: 8vh;
+    width: 100vw;
+    background-color: #18181B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+.topbox{
+    height: 5vh;
+    width: 17vw;
+    font-family: "Outfit", sans-serif;
+}
+.top-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+.top1-input{
+    height: 4vh;
+    width: 15vw;
+    border: none;
+    outline: none;
+    background-color: #37373E;
+}
+/* .top1-input::placeholder{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    padding-left: 1.3vw;
+    padding-top: auto;
+} */
+.top1-input[type=text]{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    padding-left: 1.3vw;
+    padding-top: auto;
+    color: #fff;
+}
+
+.top-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.myBtn{
+    font-family: "Outfit", sans-serif;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.myBtn.changed{
+    background-color: transparent;
+    font-size: 2vh;
+    font-weight: 400;
+    border: 2px solid #7EA6FF;
+    border-radius: 0.8vh;
+    color: #7EA6FF;
+    padding: 0.5vw;
+}
+
+.top-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+.top-last-btn{
+    border: none;
+    padding: 0.5vh 1vw;
+    border-radius: 0.3vh;
+    font-family: "Outfit", sans-serif;
+    font-size: 2vh;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.top-save-btn{
+    background-color: #4ADE80;
+}
+.top-share-btn.changed{
+    background-color: #1A5FFF;
+}
+.top-share-btn{
+    background-color: #848890;
+}
+.top-cancel-btn{
+    padding: 0px;
+    font-size: 2.9vh;
+    font-weight: 100;
+    color: #F55050;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 3vw;
+}
+.top-share-btn.changed {
+    background-color: #1A5FFF;
+  }
+  

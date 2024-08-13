@@ -1,0 +1,218 @@
+/* src/FolderList.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #18181B;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.folders {
+  height: 8vh;
+  width: 75vw;
+  background-color: #18181B;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  position: relative;
+  
+}
+
+
+
+
+.folder-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.folder {
+  background-color: #d1d1d1;
+  height: 4vh;
+  /* width: 13vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-color: #FFFFFF14;
+  color: #fff;
+  border-radius: 0.5vh;
+  border-left: solid 1vw #282828;
+  border-right: solid 1vw #282828;
+}
+
+.add-folder {
+  /* background-color: #a1a1a1; */
+  background: #FFFFFF14;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+  height: 4vh;
+  width: 10vw;
+  border-radius: 0.5vh;
+}
+.add-folder>h2{
+  margin: 0;
+  font-size: 2vh;
+  font-weight: 500;
+}
+.add-folder>img{
+  width: 1.7vw;
+}
+.folder button {
+  margin-left: 1vw;
+  background: transparent;
+  border: none;
+}
+.dustbin{
+  width: 1.5vw;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #18181B;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 19vh;
+  width: 19vw;
+  margin-top: 16vh;
+  color: #fff;
+  border: 2px solid #ffffff14;
+  border-radius: 2vh
+}
+.popup>h2{
+  align-self: start;
+  margin: 0;
+  font-size: 4vh;
+  font-weight: 600;
+}
+.popup-input{
+  outline: none;
+  border: none;
+  width: 19vw;
+  height: 5vh;
+  border-radius: 1vh;
+  background-color: #FFFFFF14;
+}
+.popup-input::placeholder{
+  font-family: "Outfit", sans-serif;
+  color: #bfb3b3;
+  /* padding-left: 1vw; */
+}
+.popup-input[type=text]{
+  padding-left: 1vw;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.popup-buttons>button{
+  height: 5vh;
+  width: 9vw;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 400;
+  cursor: pointer;
+}
+.st-line{
+  height: 5vh;
+  width: 0.2vw;
+  background-color: #c1c1c1;
+}
+
+.files {
+  height: 82vh;
+  width: 75vw;
+  background-color: #18181B;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.file-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.file-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.file {
+  background-color: #c1c1c1;
+  height: 28vh;
+  width: 11vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  position: relative;
+  border-radius: 0.6vh;
+  cursor: pointer;
+}
+
+.add-file-button {
+  height: 28vh;
+  width: 11vw;
+  margin: 0 1vw 0 0;
+  background-color: #1A5FFF;
+  border: none;
+  border-radius: 0.6vh;
+  cursor: pointer;
+}
+.add-file-button>h2{
+  color: #fff;
+  font-weight: lighter;
+  font-size: 9vh;
+  margin: 0;
+}
+.add-file-button>h3{
+  color: #fff;
+  font-weight: 200;
+  font-size: 2vh;
+  margin: 0;
+}
+.file button {
+  
+    position: absolute;
+    
+    background: transparent;
+    border: none;
+    margin-right: -11vw;
+    margin-bottom: 27vh;
+    cursor: pointer;
+}
+.file-dustbin{
+  width: 2vw;
+  background: transparent;
+}

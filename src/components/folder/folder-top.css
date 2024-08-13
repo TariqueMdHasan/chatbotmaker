@@ -1,0 +1,28 @@
+/* .folder-top{
+    width: 100vw;
+    height: 10vh;
+    background-color: #18181B;
+  } */
+
+
+
+
+
+  .folder-top {
+    width: 100vw;
+    height: 10vh;
+    background-color: #18181B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 0.4px;
+    border-color: #3e3e42;
+}
+
+.folder-dropdown {
+    background-color: #282828;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}

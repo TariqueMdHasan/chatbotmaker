@@ -1,0 +1,139 @@
+.flow-page{
+    height: 92vh;
+    width: 71vw;
+    flex: 1;
+    /* background-color: transparent; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.flow-page-top{
+    width: 71vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-box{
+    background-color: #18181B;
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    height: 7vh;
+    justify-content: start;
+    padding: 0.5vh;
+    border-radius: 0.4vh;
+    margin-top: 2vh;
+}
+.flag{
+    width: 2.5vh;
+    margin-left: 1vw;
+    padding: 1vw;
+}
+.start-h3{
+    margin: 0vh;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+.flow-area {
+    height: 77vh;
+    width: 71vw;
+    flex: 1;
+    /* background-color: transparent; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.flow-item {
+    margin: 2vh 0;
+    padding: 2.5vh;
+    background-color: #18181B;
+    border-radius: 0.7vh;
+    width: 20vw;
+    height: 11vh;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5vh 0;
+    padding: 0px;
+}
+  
+.element-element{
+    width: 20vw;
+    height: 6vh;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.element-element>p{
+    font-size: 1.5vh;
+    font-weight: 100;
+}
+.element-element-btn{
+    height: 5.5vh;
+    width: 19.5vw;
+    border: none;
+    border-radius: 0.7vh;
+    background-color: #1F1F23;
+    outline: none;
+}
+.element-element-btn::placeholder{
+    padding-left: 2vw;
+}
+.element-element-btn[type=text]{
+    color: white;
+    font-size: 2.5vh;
+}
+.element-delete{
+    width: 3vh;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -2vw;
+    margin-top: -9vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.element-delete>img{
+    width: 3vh;
+    height: 3vh;
+}
+
+
+ /* For webkit browsers (Chrome, Safari) */
+.flowarea::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Internet Explorer, Edge */
+.flow-area {
+    -ms-overflow-style: none;
+}
+
+/* For Firefox */
+.flow-area {
+    scrollbar-width: none;
+}
+
+/* Ensure scrolling is enabled */
+.flow-area {
+    overflow-y: scroll;
+}
+
+  
+
+  
+
+  
+
+  

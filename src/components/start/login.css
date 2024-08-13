@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.login{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #1E1E1E; */
+    /* background-color: #18181B; */
+    background-color: #121212;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.login-upper{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.login-back{
+    margin-left: 9vh;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 5vh;
+    cursor: pointer;
+}
+.login-middle{
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+}
+.login-middle-1{
+    width: 30vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-triangle{
+    width: 20vw;
+    margin-top: 28vh;
+}
+.login-middle-2{
+    width: 40vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    width: 22vw;
+    height: 39vh;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* .login-form>p{
+    margin: 0px;
+    font-size: 2vh;
+    color: white;
+} */
+.login-form-pw{
+    width: 20vw;
+    height: 5vh;
+    border: 1.8px solid #C4C4C4;
+    border-radius: 1.6vh;
+    background: transparent;
+    margin: 1vh 0vw;
+    outline: none;
+}
+.login-form-txt{
+    margin-bottom: 4vh;
+    width: 20vw;
+    height: 5vh;
+    border: 1.8px solid #C4C4C4;
+    border-radius: 1.6vh;
+    background: transparent;
+    margin: 1vh 0vw;
+    outline: none;
+}
+.login-form-txt::placeholder{
+    padding-left: 0vw;
+    font-family: "Outfit", sans-serif;
+    color: #C4C4C4;
+    font-weight: 100;
+}
+.login-form-txt[type=text]{
+    padding-left: 1vw;
+    font-family: "Outfit", sans-serif;
+    color: #C4C4C4;
+    font-weight: 300;
+}
+.login-form-pw::placeholder{
+    padding-left: 0vw;
+    font-family: "Outfit", sans-serif;
+    color: #C4C4C4;
+    font-weight: 100;
+}
+.login-form-pw[type=password]{
+    padding-left: 1vw;
+    font-family: "Outfit", sans-serif;
+    color: #C4C4C4;
+    font-weight: 300;
+}
+.login-form-btn{
+    width: 20.5vw;
+    height: 5vh;
+    border-radius: 1.6vh;
+    border: none;
+    background-color: #1A5FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 2vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+.login-form-p1{
+    margin: 0px;
+    font-size: 2vh;
+    color: white;
+}
+.login-form-p2{
+    margin: 0px;
+    font-size: 2vh;
+    color: white;
+    margin-top: 2.5vh;
+}
+.login-form-p3{
+    font-size: 2vh;
+    color: white;
+    margin: 0vh 0vw 0.9vh 2vw;
+}
+.login-form-span{
+    color: #1A5FFF;
+    cursor: pointer;
+}
+
+.login-middle-3{
+    width: 30vw;
+    height: 65vh;
+    display: flex;
+    justify-content: end;
+    align-items: self-start;
+}
+.login-middle-3-img{
+    width: 8vw;
+}
+
+.login-lower{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+.login-lower-image{
+    width: 16vw;
+    margin-left: 34vw; 
+}

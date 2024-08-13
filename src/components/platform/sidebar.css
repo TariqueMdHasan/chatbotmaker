@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.sidebar {
+    width: 25vw;
+    height: 88vh;
+    background-color: #18181B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    border: 2px solid #33333a;
+    border-radius: 1vh;
+    margin-left: 1vw;
+}
+.bubbles{
+    margin-top: 3vh;
+    height: 22vh;
+    width: 24vw;
+}
+
+.input-h2, .bubbles-h2{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 3.5vh;
+    margin: 0vh;
+    margin-left: 1vh;
+}
+.input{
+    height: 37vh;
+    width: 24vw;
+    margin-top: 4vh;
+}
+
+.bubble-box{
+    width: 24vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+.b-six{
+    width: 24vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center; 
+}
+.sb-btn {
+    margin: 1vh 1vh;
+    padding: 1vh;
+    background-color: #1F1F23;
+    border-radius: 1vh;
+    cursor: pointer;
+    text-align: center;
+    width: 11vw;
+    height: 6vh;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    border: 2px solid #27272A;
+    gap: 1vh;
+}
+
+
+.bubbles-h2-box{
+    height: 4vh;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btn-img{
+    width: 1.2vw;
+}
+.bubble-gif{
+    width: 2vw;
+}
